@@ -1,1 +1,0 @@
-import{S as n,_ as s}from"./constants-CkGjT7th.js";import{d as a,o as e,c as _,u as r}from"./index-DQ3UFvwR.js";import"./index-1mT0hk1j.js";const m=a({__name:"vd-row-col",props:{data:{}},setup(c){return(o,p)=>{const t=s;return e(),_(t,{"class-list":["vd-row-col"],data:o.data,"shortcut-key-options":r(n)},null,8,["data","shortcut-key-options"])}}});export{m as default};
