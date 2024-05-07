@@ -1,1 +1,0 @@
-import{a,_ as s}from"./constants-DddJQ9Tu.js";import{d as e,o as n,c as _,u as r}from"./index-Ca2LLPwG.js";import"./index-DlWaOM_-.js";const d=e({__name:"vd-search",props:{data:{}},setup(c){return(o,p)=>{const t=s;return n(),_(t,{"class-list":["vd-search"],data:o.data,"shortcut-key-options":r(a)},null,8,["data","shortcut-key-options"])}}});export{d as default};

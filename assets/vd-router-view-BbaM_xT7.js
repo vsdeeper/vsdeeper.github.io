@@ -1,0 +1,1 @@
+import{S as e,_ as n}from"./constants-CkGjT7th.js";import{d as s,o as a,c as r,u as _}from"./index-DQ3UFvwR.js";import"./index-1mT0hk1j.js";const d=s({__name:"vd-router-view",props:{data:{}},setup(p){return(o,c)=>{const t=n;return a(),r(t,{"class-list":["vd-router-view"],data:o.data,"shortcut-key-options":_(e)},null,8,["data","shortcut-key-options"])}}});export{d as default};
