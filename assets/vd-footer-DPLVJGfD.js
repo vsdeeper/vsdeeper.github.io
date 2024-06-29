@@ -1,1 +1,0 @@
-import{S as e,_ as n}from"./constants-Dx3yDjnH.js";import{d as s,o as a,c as _,u as r}from"./index-q762oY3o.js";import"./index-Bqwyt_Tp.js";const d=s({__name:"vd-footer",props:{data:{}},setup(p){return(o,c)=>{const t=n;return a(),_(t,{"class-list":["vd-footer"],data:o.data,"shortcut-key-options":r(e)},null,8,["data","shortcut-key-options"])}}});export{d as default};
