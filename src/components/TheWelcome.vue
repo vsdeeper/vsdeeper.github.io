@@ -2,8 +2,8 @@
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
+import ComponentIcon from './icons/IconComponent.vue'
+import VisualDevelopmentIcon from './icons/IconVisualDevelopment.vue'
 import SupportIcon from './icons/IconSupport.vue'
 </script>
 
@@ -12,77 +12,59 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading>文档</template>
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    快捷开发的
+    <a href="https://vuejs.org/" target="_blank" rel="noopener">文档</a>
+    为您提供了快速开始所需的所有信息。
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading>工具</template>
 
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank" rel="noopener"
-      >Cypress Component Testing</a
-    >.
-
-    <br />
-
-    More instructions are available in <code>README.md</code>.
+    <a href="https://github.com/vsdeeper/vswift" target="_blank" rel="noopener">vswift</a>
+    是实现快捷开发的核心工具，它提供了将可视化配置数据生成代码的脚手架能力。
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <ComponentIcon />
     </template>
-    <template #heading>Ecosystem</template>
+    <template #heading>组件</template>
 
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">vswift-components</a>
+    是快捷开发的常用组件，也是可视化配置的重要搭档和生成代码的重要组成部分，
+    <a href="https://vsdeeper.github.io/vswift-components" target="_blank" rel="noopener"> 这里 </a>
+    预览。
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
+      <VisualDevelopmentIcon />
     </template>
-    <template #heading>Community</template>
+    <template #heading>可视化</template>
 
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    <a href="https://github.com/vsdeeper/visual-development" target="_blank" rel="noopener">
+      visual-development
+    </a>
+    是快捷开发的可视化配置平台，通过配置生成JSON数据，下载到本地，配合 vswift 命令将数据转化为代码，
+    <a href="https://vsdeeper.github.io/visual-development" target="_blank" rel="noopener">
+      这里
+    </a>
+    预览。
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Support Vue</template>
+    <template #heading>赞助我</template>
 
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    作为一个独立开源项目，作者倾注了大量时间和精力。您可以成为
+    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener"> 赞助商 </a>
+    来帮助作者。
   </WelcomeItem>
 </template>
