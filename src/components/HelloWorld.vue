@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { getLangData } from './util'
+
 defineProps<{
   msg: string
 }>()
@@ -7,11 +9,7 @@ defineProps<{
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <h3>
-      基于 <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>
-      的快捷开发工具，通过可视化配置动态生成代码。
-    </h3>
+    <h3 v-html="getLangData('hello_world')"></h3>
   </div>
 </template>
 
