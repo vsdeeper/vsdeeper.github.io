@@ -1,0 +1,1 @@
+import{a as e,_ as a}from"./constants-CAKHpgwp.js";import{d as n,o as s,c as _,u as p}from"./index-Dv1MvMk1.js";const i=n({__name:"vd-project",props:{data:{}},setup(r){return(o,c)=>{const t=a;return s(),_(t,{"class-list":["vd-project"],data:o.data,"shortcut-key-options":p(e)},null,8,["data","shortcut-key-options"])}}});export{i as default};
