@@ -36,7 +36,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>组件</template>
 
     <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">vswift-components</a>
-    是快捷开发的常用组件，也是可视化配置的重要搭档和生成代码的重要组成部分，
+    是快捷开发的常用组件，也是可视化配置的重要搭档和生成代码的重要组成部分， 点击
     <a href="https://vsdeeper.github.io/vswift-components" target="_blank" rel="noopener"> 这里 </a>
     预览。
   </WelcomeItem>
@@ -51,10 +51,10 @@ import SupportIcon from './icons/IconSupport.vue'
       visual-development
     </a>
     是快捷开发的可视化配置平台，通过配置生成JSON数据，下载到本地，配合 vswift 命令将数据转化为代码，
-    <a href="https://vsdeeper.github.io/visual-development" target="_blank" rel="noopener">
+    点击<a href="https://vsdeeper.github.io/visual-development" target="_blank" rel="noopener">
       这里
     </a>
-    预览。
+    开始。
   </WelcomeItem>
 
   <WelcomeItem>
