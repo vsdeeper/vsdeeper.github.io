@@ -6,7 +6,7 @@ export const LANG_DATA: Record<'zh' | 'en', any> = {
     document: {
       title: '文档',
       content: `快捷开发的
-                <a href="https://vuejs.org/" target="_blank" rel="noopener">文档</a>
+                <a href="https://github.com/vsdeeper/vswift" target="_blank" rel="noopener">文档</a>
                 为您提供了快速开始所需的所有信息。`
     },
     tool: {
@@ -47,7 +47,7 @@ export const LANG_DATA: Record<'zh' | 'en', any> = {
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a> that dynamically generates code through visual configuration.`,
     document: {
       title: 'Documentation',
-      content: `The Quick Start <a href="https://vuejs.org/" target="_blank" rel="noopener">documentation</a> provides you with all the information you need to get started quickly.`
+      content: `The Quick Start <a href="https://github.com/vsdeeper/vswift" target="_blank" rel="noopener">documentation</a> provides you with all the information you need to get started quickly.`
     },
     tool: {
       title: 'Tool',
