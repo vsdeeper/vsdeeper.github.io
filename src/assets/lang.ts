@@ -37,9 +37,7 @@ export const LANG_DATA: Record<'zh' | 'en', any> = {
     },
     sponsor: {
       title: '赞助我',
-      content: `作为一个独立的开源项目，我倾注了大量时间和精力在上面。您可以成为
-                <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener"> 赞助商 </a>
-                来帮助我。`
+      content: `人生如梦，‌一尊还酹江月。谢谢！`
     }
   },
   en: {
@@ -67,7 +65,7 @@ export const LANG_DATA: Record<'zh' | 'en', any> = {
     },
     sponsor: {
       title: 'Sponsor me',
-      content: `As an independent open source project, I has invested a lot of time and energy. You can help me by <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.`
+      content: `Life is like a dream, I will pour a cup of wine to the moon. Thank you!`
     }
   }
 }
