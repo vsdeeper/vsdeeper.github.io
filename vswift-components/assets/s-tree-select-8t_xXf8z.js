@@ -1,0 +1,1 @@
+import{d as r,m,u,o as d,c as t,a as p,g as n,V}from"./index-15pAM7bj.js";const f=r({__name:"s-tree-select",props:m({props:{}},{modelValue:{},modelModifiers:{}}),emits:["update:modelValue"],setup(l){const e=u(l,"modelValue");return(s,o)=>(d(),t(n(V),p({modelValue:e.value,"onUpdate:modelValue":o[0]||(o[0]=a=>e.value=a)},s.props),null,16,["modelValue"]))}});export{f as default};

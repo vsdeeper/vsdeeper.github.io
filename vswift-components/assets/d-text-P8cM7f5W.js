@@ -1,0 +1,1 @@
+import{d as n,h as p,o as c,c as r,w as i,I as _,J as d,g as e,a as x,ax as m}from"./index-15pAM7bj.js";const g=n({__name:"d-text",props:{designData:{}},setup(o){const a=o,t=p(()=>a.designData.options);return(f,l)=>{const s=m;return c(),r(s,x(e(t),{type:e(t).type??"info"}),{default:i(()=>[_(d(e(t).text??"暂未配置"),1)]),_:1},16,["type"])}}});export{g as default};
