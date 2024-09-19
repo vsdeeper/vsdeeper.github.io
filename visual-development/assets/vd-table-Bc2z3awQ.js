@@ -1,0 +1,1 @@
+import{S as a,_ as e}from"./constants-yrySS-j5.js";import{d as n,o as s,c as _,u as p}from"./index-BGAWU8EI.js";const d=n({__name:"vd-table",props:{data:{}},setup(r){return(t,c)=>{const o=e;return s(),_(o,{"class-list":["vd-table"],data:t.data,"shortcut-key-options":p(a)},null,8,["data","shortcut-key-options"])}}});export{d as default};
