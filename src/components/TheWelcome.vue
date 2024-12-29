@@ -29,8 +29,8 @@ import { getLangData } from './util'
     <template #icon>
       <FormIcon />
     </template>
-    <template #heading>{{ getLangData('component.title') }}</template>
-    <div v-html="getLangData('component.content')"></div>
+    <template #heading>{{ getLangData('form.title') }}</template>
+    <div v-html="getLangData('form.content')"></div>
   </WelcomeItem>
 
   <WelcomeItem>
