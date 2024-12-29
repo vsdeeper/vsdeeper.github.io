@@ -1,0 +1,1 @@
+import{_ as e,o as c,c as o,a as s}from"./index-BWR1_KdD.js";const t={},n={class:"document"},a=s("h1",null,"This is an document page",-1),_=[a];function r(d,i){return c(),o("div",n,_)}const m=e(t,[["render",r]]);export{m as default};
