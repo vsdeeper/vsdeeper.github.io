@@ -14,13 +14,13 @@ export const LANG_DATA: Record<'zh' | 'en', any> = {
       content: `<a href="https://github.com/vsdeeper/vswift" target="_blank" rel="noopener">vswift</a>
                 是实现快捷开发的核心工具，它提供了将可视化配置数据生成代码的脚手架能力。`
     },
-    component: {
-      title: '组件',
-      content: `<a href="https://github.com/vsdeeper/vswift-components" target="_blank" rel="noopener">
-                  vswift-components
+    form: {
+      title: '表单设计',
+      content: `<a href="https://github.com/vsdeeper/vswift-form" target="_blank" rel="noopener">
+                  vswift-form
                 </a>
-                是快捷开发的常用组件，也是可视化配置的重要搭档和生成代码的重要组成部分， 点击
-                <a href="https://vsdeeper.github.io/vswift-components" target="_blank" rel="noopener"> 这里 </a>
+                是可视化开发时设计表单的核心插件，它主要为动态生成表单代码时提供配置数据， 点击
+                <a href="https://vsdeeper.github.io/vswift-form" target="_blank" rel="noopener"> 这里 </a>
                 预览。`
     },
     visual: {
@@ -51,11 +51,11 @@ export const LANG_DATA: Record<'zh' | 'en', any> = {
       title: 'Tool',
       content: `<a href="https://github.com/vsdeeper/vswift" target="_blank" rel="noopener">vswift</a> is a core tool for rapid development, which provides scaffolding capabilities for generating code from visual configuration data.`
     },
-    component: {
-      title: 'Component',
+    form: {
+      title: 'Form designer',
       content: `<a href="https://github.com/vsdeeper/vswift-components" target="_blank" rel="noopener">
                   vswift-components
-                </a> is a commonly used component for quick development. It is also an important partner for visual configuration and an important component for code generation. Click <a href="https://vsdeeper.github.io/vswift-components" target="_blank" rel="noopener">here</a> to preview it.`
+                </a> is a core plug-in for designing forms during visual development. It mainly provides configuration data for dynamically generating form code. Click <a href="https://vsdeeper.github.io/vswift-components" target="_blank" rel="noopener">here</a> to preview it.`
     },
     visual: {
       title: 'Visual',

@@ -2,7 +2,7 @@
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
-import ComponentIcon from './icons/IconComponent.vue'
+import FormIcon from './icons/IconForm.vue'
 import VisualDevelopmentIcon from './icons/IconVisualDevelopment.vue'
 import SupportIcon from './icons/IconSupport.vue'
 import { getLangData } from './util'
@@ -27,7 +27,7 @@ import { getLangData } from './util'
 
   <WelcomeItem>
     <template #icon>
-      <ComponentIcon />
+      <FormIcon />
     </template>
     <template #heading>{{ getLangData('component.title') }}</template>
     <div v-html="getLangData('component.content')"></div>
