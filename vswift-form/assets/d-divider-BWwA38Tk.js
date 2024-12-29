@@ -1,0 +1,1 @@
+import{d as n,S as r,o as i,b as p,w as c,f as d,Z as _,g as t,a$ as l,b0 as m,z as u}from"./index-BaHOnCAb.js";const v=n({__name:"d-divider",props:{designData:{}},setup(a){const o=a,e=r(()=>o.designData.options);return(f,g)=>{const s=u;return i(),p(s,l(m(t(e))),{default:c(()=>[d(_(t(e).text??"分割线"),1)]),_:1},16)}}});export{v as default};
