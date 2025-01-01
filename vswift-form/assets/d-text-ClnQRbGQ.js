@@ -1,1 +1,0 @@
-import{d as n,S as p,o as r,b as c,w as i,f as _,Z as d,g as e,aN as f,aP as m}from"./index-BaHOnCAb.js";const g=n({__name:"d-text",props:{designData:{}},setup(o){const a=o,t=p(()=>a.designData.options);return(x,l)=>{const s=m;return r(),c(s,f(e(t),{type:e(t).type??"info"}),{default:i(()=>[_(d(e(t).text),1)]),_:1},16,["type"])}}});export{g as default};
