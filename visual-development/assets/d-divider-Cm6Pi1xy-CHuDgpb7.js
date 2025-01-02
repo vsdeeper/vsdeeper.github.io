@@ -1,0 +1,1 @@
+import{d as r,p as n,o as c,c as p,w as d,z as i,t as u,u as t,cB as f,cC as l,cD as m}from"./index-CWWRlrrt.js";const z=r({__name:"d-divider",props:{designData:{}},setup(a){const s=a,e=n(()=>s.designData.options);return(g,x)=>{const o=m;return c(),p(o,f(l(t(e))),{default:d(()=>[i(u(t(e).text??"分割线"),1)]),_:1},16)}}});export{z as default};
