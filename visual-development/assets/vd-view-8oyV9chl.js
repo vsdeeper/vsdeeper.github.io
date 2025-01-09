@@ -1,1 +1,0 @@
-import{S as e,_ as s}from"./constants-DJUNx-Oh.js";import{d as n,o as a,c as _,u as p}from"./index-CZFH4A4X.js";const d=n({__name:"vd-view",props:{data:{}},setup(r){return(o,c)=>{const t=s;return a(),_(t,{"class-list":["vd-view"],data:o.data,"shortcut-key-options":[...p(e),{keys:["V","E"]}]},null,8,["data","shortcut-key-options"])}}});export{d as default};

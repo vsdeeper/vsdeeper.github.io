@@ -1,1 +1,0 @@
-import{d as r,p as n,o as c,c as p,w as d,z as i,t as u,u as t,cC as f,cD as g,cE as l}from"./index-CZFH4A4X.js";const C=r({__name:"d-divider",props:{designData:{}},setup(a){const s=a,e=n(()=>s.designData.options);return(m,D)=>{const o=l;return c(),p(o,f(g(t(e))),{default:d(()=>[i(u(t(e).text??"分割线"),1)]),_:1},16)}}});export{C as default};
