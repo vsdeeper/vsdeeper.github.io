@@ -1,1 +1,0 @@
-import{d as r,l as n,o as c,c as d,w as i,z as p,t as u,u as t,cx as l,cy as f,cz as g}from"./index-D0z7x34C.js";const z=r({__name:"d-divider",props:{designData:{}},setup(a){const s=a,e=n(()=>s.designData.options);return(m,x)=>{const o=g;return c(),d(o,l(f(t(e))),{default:i(()=>[p(u(t(e).text??"分割线"),1)]),_:1},16)}}});export{z as default};
